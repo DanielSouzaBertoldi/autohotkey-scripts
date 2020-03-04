@@ -11,7 +11,7 @@ Now your CMD is as clean as when it was initialized.
 
 ### Alternate Description
 
-You know when times when you're struggling to find the correct way to use a command and you just keep re-typing the same command with different flags or words since you can't figure out what is wrong?
+You know those times when you're struggling to find the correct way to use a command and you just keep re-typing the same command with different flags or words since you can't figure out what is wrong?
 
 Then one wild ideia suddenly hits you: _'What if I just read the manual for this command?'_ you think to yourself. You praise your own intelligence for a brief period of time then shortly afterwards you hit that ```REG QUERY /?``` into the CMD and... _'Damn.'_ it's only thought that crosses your mind. You start the painful process of reading flag by flag what each one of them does, and you start to lose hope that you'll ever find that one information stored in the registry that you want so bad. You lost all your confidence by now, you feel like your so-called "IQ" is so high that it loops over and hits negative digits, and you think _'Maybe I should check StackOverflow or watch a tutorial on the internet'_, but you can't and, let's be honest, you won't, since you're a snobbish programmer and you want to find your own solutions. Hours pass, you try every flag, every path in the registry and _still_ you're unable of finding what you seek. You wipe the tears off your face: _'I guess it's time.'_ Your hands are shaking, your head is aching and your heart is filled with anger, disappointment and embarassment. You look down, then, very gently you press ```Ctrl+l```.
 
