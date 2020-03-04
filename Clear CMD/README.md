@@ -1,7 +1,7 @@
 # Clear CMD Shortcut
 
 ### Description
-Have you ever wondered why Windows CMD never had a command shortcut to clear all the gibberish that you wound up typing in it? Well, you can always use ```cls``` to clear your prompt, of course, but let's face it: if we were issuing commands in Bash, we would just hit that sweet ```Ctrl+l``` and be done with this minor inconvience, right? No need to type ```clear``` or anything in that case.
+Have you ever wondered why Windows CMD never had a command shortcut to clear all the gibberish that you wound up typing in it? Well, you can always use ```cls``` to clear your prompt of course, but let's face it: if we were issuing commands in Bash, we would just hit that sweet ```Ctrl+l``` and be done with this minor inconvience, right? No need to type ```clear``` or anything in that case.
 
 If you're mildly annoyed by the fact that CMD doesn't have a built-in shortcut like Bash does for clearing the command prompt, then you're in luck! You just need to  download the ```cls-auto.ahk``` file and double click it (that is, if you have *AutoHotKey* installed on your PC). Fire up your CMD in your favorite way (mine's through the Run dialog box), type some random hardcore commands like the pro programmer you are or just keep holding the ```Enter``` key like a cannibal just ate your brains until you get annoyed with all those words in your CMD screen.
 
