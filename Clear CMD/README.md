@@ -15,4 +15,17 @@ You know those times when you're struggling to find the correct way to use a com
 
 Then one wild ideia suddenly hits you: _'What if I just read the manual for this command?'_ you think to yourself. You praise your own intelligence for a brief period of time then shortly afterwards you hit that ```REG QUERY /?``` into the CMD and... _'Damn.'_ it's only thought that crosses your mind. You start the painful process of reading flag by flag what each one of them does, and you start to lose hope that you'll ever find that one information stored in the registry that you want so bad. You lost all your confidence by now, you feel like your so-called "IQ" is so high that it loops over and hits negative digits, and you think _'Maybe I should check StackOverflow or watch a tutorial on the internet'_, but you can't and, let's be honest, you won't, since you're a snobbish programmer and you want to find your own solutions. Hours pass, you try every flag, every path in the registry and _still_ you're unable of finding what you seek. You wipe the tears off your face: _'I guess it's time.'_ Your hands are shaking, your head is aching and your heart is filled with anger, disappointment and embarassment. You look down, then, very gently you press ```Ctrl+l```.
 
-Now you're at peace.
+You're still miserable, but at leas now you're at peace.
+
+## Explaining the Code
+
+Pretty straightforward, it couldn't get any simpler than this:
+
+```autohotkey
+#IfWinActive, ahk_class ConsoleWindowClass ; checks if the active window is a CMD/Powershell
+; In AutoHotKey terms, the character '^' means 'Control', and 'l' means... Well, l. So,
+; when the user presses Ctrl+l, it'll execute the next lines of code until a return is found.
+^l::
+  SendInput {Esc}cls{Enter} ; type "cls" and enter the command!
+return
+```
