@@ -5,9 +5,5 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
 #IfWinActive, ahk_class ConsoleWindowClass
 ^l::
-Clipboard=
-SendInput !{space}es{Enter}
-ClipWait, 1
-Clipboard := RegExReplace(Clipboard,"s).+>")
-SendInput {Esc}cls{Enter}%Clipboard%
+SendInput {Esc}cls{Enter}
 return
