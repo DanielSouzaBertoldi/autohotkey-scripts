@@ -2,9 +2,9 @@
 
 ### Description
 
-Yeah I know, you can easily check the password by going through the Network and Sharing Center control panel, but what if you could find the password to your current connect internet with just a really simple shortcut in your CMD? Well, now your dreams became true because this script will help your little brain remember the password within milliseconds just by pressin ```Ctrl+P```!
+Yeah I know, you can easily check the password by going through the Network and Sharing Center control panel, but what if you could find the password to the Wi-Fi your currently connected with just a really simple shortcut in your CMD? Well, now your dreams can become true because this script will help your little brain remember the password within milliseconds just by pressing ```Ctrl+P```!
 
-_Disclaimer:_ Like I've already said, this script will return the password to the *current connected internet*, be it Wi-Fi or cable. If you want to find the password to other Wi-Fis you previously connected, then read the _"Modifying the code to your liking"_ section.
+_Disclaimer:_ Like I've already said, this script will return the password to the *current connected Wi-Fi*. If you want to find the password to other Wi-Fis you previously connected, then read the _"Modifying the code to your liking"_ section.
 
 ### Alternate Description
 
