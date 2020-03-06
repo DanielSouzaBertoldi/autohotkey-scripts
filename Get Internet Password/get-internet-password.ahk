@@ -5,5 +5,5 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
 #IfWinActive, ahk_class ConsoleWindowClass
 ^p::
-SendInput {Text}for /f "tokens=2 delims=:" %i in ('netsh wlan show interfaces ^| find "Profile"') do netsh wlan show profile %i key=clear | find "Key"{Enter}
+SendInput for /f "tokens=2 delims=:" `%i in ('netsh wlan show interfaces ^| find "Perfil"') do netsh wlan show profile "`%i" key=clear | find "Conteúdo da Chave"{Enter}
 return
