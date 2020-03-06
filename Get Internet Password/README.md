@@ -2,7 +2,7 @@
 
 ### Description
 
-Yeah I know, you can easily check the password by going through the Network and Sharing Center control panel, but what if you could find the password to the Wi-Fi your currently connected with just a really simple shortcut in your CMD? Well, now your dreams can become true because this script will help your little brain remember the password within milliseconds just by pressing ```Ctrl+P```!
+Yeah I know, you can easily check the password by going through the Network and Sharing Center control panel, but what if you could find the password of the Wi-Fi you're currently connected with just a really simple shortcut in your CMD? Well, now your dreams can become true because this script will help your little brain remember the password within milliseconds just by pressing ```Ctrl+P```!
 
 _Disclaimer:_ Like I've already said, this script will return the password to the *current connected Wi-Fi*. If you want to find the password to other Wi-Fis you previously connected, then read the _"Modifying the code to your liking"_ section.
 
@@ -52,7 +52,7 @@ return
 If you want to find the password to other Wi-Fi you've connected before, then just replace the ```SendInput``` line with:
 
 ```autohotkeys
-SendInput netsh wlan show profile <SSID> key=clear | find "Key"{Enter}
+SendInput netsh wlan show profile "<SSID>" key=clear | find "Key"{Enter}
 ```
 
 Though I don't think there's a practical use to that, since you can always just copy and paste this command directly into CMD without having to use a shorcut.
